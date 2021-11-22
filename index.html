@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+    <title>This is a test</title>
+    <style>
+        @media screen and (min-width: 320px) {
+            html {
+                font-size: 32px;
+            }
+        }
+        @media screen and (min-width: 375px) {
+            html {
+                font-size: 37.5px;
+            }
+        }
+        @media screen and (min-width: 414px) {
+            html {
+                font-size: 41.4px;
+            }
+        }
+        @media screen and (min-width: 750px) {
+            html {
+                font-size: 75px;
+            }
+        }
+
+        h3 {
+            font-size:  1rem;
+        }
+
+        div {
+            background-color: rgb(180, 180, 226);
+        }
+
+        div.main {
+            background-color: rgb(131, 115, 221);
+        }
+
+        div.left {
+            float: left;
+            height: 1rem;
+            /* width: 1rem; */
+            width: 25%;
+            background-color: aqua;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        div.center {
+            float: left;
+            height: 5rem;
+            /* width: 5rem; */
+            width: 25%;
+            background-color: red;
+        }
+        
+        div.right {
+            float: left;
+            height: 10rem;
+            /* width: 10rem; */
+            width: 50%;
+            background-color: green;
+        } 
+
+        span {
+            display: inline-block;
+            height: 2rem;
+            width: 10rem;
+            text-align: center;
+            background-color: greenyellow;
+            line-height: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h3>This is my test</h3>
+
+    <div class='main'>
+        <div class="left">left</div>
+        <div class="center">center</div>
+        <div class="right">right</div>
+        <span>this is a box</span>
+    </div>
+
+    <div>foot</div>
+
+</body>
+</html>
